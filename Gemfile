@@ -11,7 +11,7 @@ def vanagon_location_for(place)
 end
 
 gem 'vanagon', *vanagon_location_for(ENV['VANAGON_LOCATION'] || '~> 0.14.1')
-gem 'packaging', :github => 'mwaggett/packaging', :branch => 'ticket/master/re-9948-dont-create-aix-repo-config'
+gem 'packaging', :github => 'mwaggett/packaging', :branch => 'ticket/1.0.x/re-9948-dont-create-aix-repo-config'
 gem 'rake'
 gem 'json'
 gem 'rubocop', "~> 0.34.2"
